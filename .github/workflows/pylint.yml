@@ -1,4 +1,4 @@
-name: Self-hosted Test
+name: Teste no Runner Self-hosted
 
 on: [push]
 
@@ -6,9 +6,10 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-    - name: Verificando o runner
-      run: |
-        echo "Rodando no runner self-hosted!"
-        hostname
-        whoami
+    - name: Clonando repositório
+      uses: actions/checkout@v4
 
+    - name: Verificando arquivos clonados
+      run: |
+        echo "Arquivos do repositório:"
+        ls -la
