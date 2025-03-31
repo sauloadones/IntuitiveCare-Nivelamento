@@ -32,10 +32,10 @@ def ws():
     tipo = input(("Voce deseja compactar em que tipo de formato ESCOLHA ENTRE: RAR ou ZIP"))
 
     if tipo.lower() == 'rar':
-        compactar_rar(nome_rar="anexos_rar.rar")
+        compactar_rar("pdfs" ,nome_rar="anexos_rar.rar")
 
     elif tipo.lower() == "zip":
-        compactar_em_zip(nome_zip="anexos_rol.zip")
+        compactar_em_zip("pdfs" ,nome_zip="anexos_rol.zip")
 
     else: 
         return "Digite uma formatação valida"
