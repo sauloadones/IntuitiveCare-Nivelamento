@@ -2,7 +2,7 @@ import pdfplumber
 import csv
 from pathlib import Path
 import os
-from src.compactarZip import compactar_em_zip
+from Questoes1a3.compactarZip import compactar_em_zip
 def pdf_to_csv(name: str, nome_arquivo: str):
     # Diretórios
     base_dir = Path(__file__).resolve().parent

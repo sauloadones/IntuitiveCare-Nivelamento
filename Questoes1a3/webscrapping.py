@@ -1,8 +1,8 @@
 import requests
-from src.downloadFile import  download_file
-from src.buscarArquivo import encontrar_arquivos_para_download
-from src.compactarZip import compactar_em_zip
-from src.compactarRar import compactar_rar
+from Questoes1a3.downloadFile import  download_file
+from Questoes1a3.buscarArquivo import encontrar_arquivos_para_download
+from Questoes1a3.compactarZip import compactar_em_zip
+from Questoes1a3.compactarRar import compactar_rar
 url_base = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos"
 
 lista_arquivos = []
