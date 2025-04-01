@@ -24,3 +24,7 @@ A opção de upload de csv não esta funcional
 ![alt text](image.png)
 
 ![alt text](image-1.png)
+
+# O diretorio chamado 1 a 3, esta as questões de 1 a 3 com scrapping 
+
+Para rodar e so rodar o arquivo main.py no diretorio principal, e os scripts do banco de dados estão na pasta initdb
